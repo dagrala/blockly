@@ -90,5 +90,34 @@
   },
   "dependencies": {
     "jsdom": "15.2.1"
-  }
+  },
+  "files": [
+    "dist/*",
+    "dist/appengine/*",
+    "dist/block/*",
+    "dist/core/*",
+    "dist/core/events/*",
+    "dist/core/interfaces/*",
+    "dist/core/keyboard_nav/*",
+    "dist/core/renderers/*",
+    "dist/core/renderers/common/*",
+    "dist/core/renderers/geras/*",
+    "dist/core/renderers/measurables/*",
+    "dist/core/renderers/minimalist/*",
+    "dist/core/renderers/thrasos/*",
+    "dist/core/renderers/zelos/*",
+    "dist/core/theme/*",
+    "dist/core/toolbox/*",
+    "dist/core/utils/*",
+    "dist/generators/*",
+    "dist/generators/arduino/*",
+    "dist/generators/dart/*",
+    "dist/generators/javascript/*",
+    "dist/generators/lua/*",
+    "dist/generators/php/*",
+    "dist/generators/python/*",
+    "dist/media/*",
+    "dist/media/arduino/*",
+    "dist/msg/*"
+  ]
 }
