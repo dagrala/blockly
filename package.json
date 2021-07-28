@@ -46,14 +46,14 @@
     "typings": "gulp typings",
     "updateGithubPages": "gulp gitUpdateGithubPages"
   },
-  "main": "./index.js",
-  "umd": "./blockly.min.js",
-  "unpkg": "./blockly.min.js",
-  "types": "./index.d.ts",
+  "main": "./dist/index.js",
+  "umd": "./dist/blockly.min.js",
+  "unpkg": "./dist/blockly.min.js",
+  "types": "./dist/index.d.ts",
   "browser": {
-    "./node.js": "./browser.js",
-    "./core.js": "./core-browser.js",
-    "./blockly-node.js": "./blockly.js"
+    "./node.js": "./dist/browser.js",
+    "./core.js": "./dist/core-browser.js",
+    "./blockly-node.js": "./dist/blockly.js"
   },
   "license": "Apache-2.0",
   "devDependencies": {
